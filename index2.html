@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameDev and Esports Club IITG</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="Logo" class="logo" />
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#games">Games</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>SHADOW REALM</h1>
+        <p>
+          Step into the Shadow Realm — a mystical world where magic and darkness
+          clash in epic battles.
+        </p>
+        <button  onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')">PLAY NOW</button>
+      </div>
+    </section>
+
+<section class="about" id="about">
+  <h2>ABOUT US</h2>
+  <p>
+    We are the Game Development and Esports Club of IIT Guwahati — a community of passionate developers and competitive gamers. 
+    From building fantasy worlds to battling in esports tournaments, we blend creativity, technology, and strategy to power the future of gaming on campus.
+  </p>
+</section>
+
+    <section class="games" id="games">
+  <h2>OUR GAMES</h2>
+  <div class="games-list"> <!-- renamed from games -->
+    <div class="card">
+      <img src="DarkHunter.jpg" alt="Dark Hunter" />
+      <h3>DARK HUNTER</h3>
+      <p>Stalk the shadows. Hunt the darkness. Become the fear.</p>
+    </div>
+    <div class="card">
+      <img src="warzone.jpg" alt="Warzone" />
+      <h3>WARZONE</h3>
+      <p>No rules. No mercy. Just war.</p>
+    </div>
+    <div class="card">
+      <img src="DesertRaid.jpg" alt="Desert Raid" />
+      <h3>DESERT RAID</h3>
+      <p>Blaze through the dunes. Strike without warning.</p>
+    </div>
+  </div>
+  <div class="view-all">
+    <button class="btn">VIEW ALL</button>
+  </div>
+</section>
+
+
+<section class="news" id="news">
+  <h2>LATEST NEWS</h2>
+  <div class="news-list">
+    <div class="card">
+      <img src="news1.jpg" alt="News 1" />
+      <p>A new Battle Royale</p>
+    </div>
+    <div class="card">
+      <img src="news2.jpg" alt="News 2" />
+      <p>GTA 6 Got delayed as fuck</p>
+    </div>
+    <div class="card">
+      <img src="news3.jpg" alt="News 3" />
+      <p>New agent in valorant gets nerfed</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <form class="contact-form" action="#" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="3" placeholder="Write your message here..." required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+
+  </body>
+</html>
